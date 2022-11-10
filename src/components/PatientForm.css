@@ -1,0 +1,8 @@
+#submitButton {
+  min-width: 120px;
+}
+
+#allergiesDiv {
+  display: flex;
+  justify-content: space-between;
+}
