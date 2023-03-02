@@ -19,10 +19,8 @@ class Home extends Component {
             <Nav.Link href="/all">Patient List</Nav.Link>
             <Nav.Link href="/add">Add Patient Record</Nav.Link>
           </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Patient Search" className="mr-sm-2" />
-            <Button variant="outline-success">Search</Button>
-          </Form>
+          
+
         </Navbar.Collapse>
       </Navbar>
       <Switch>
@@ -35,5 +33,10 @@ class Home extends Component {
     )
   }
 };
+//After </Nav>
+//<Form inline>
+//<FormControl type="text" placeholder="Patient Search" className="mr-sm-2" />
+//<Button variant="outline-success">Search</Button>
+//</Form>
 
 export default Home;
